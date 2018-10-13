@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0466B0062171F6E1005ACD0B /* mashi_findingHouse.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0466B0012171F6E1005ACD0B /* mashi_findingHouse.mp4 */; };
+		0466B0072171F6E1005ACD0B /* mashi_fishing.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0466B0022171F6E1005ACD0B /* mashi_fishing.mp4 */; };
+		0466B0082171F6E1005ACD0B /* mashi_eatingEgg.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0466B0032171F6E1005ACD0B /* mashi_eatingEgg.mp4 */; };
+		0466B0092171F6E1005ACD0B /* mashi-watchingMoon.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0466B0042171F6E1005ACD0B /* mashi-watchingMoon.mp4 */; };
+		0466B00A2171F6E1005ACD0B /* mashi_makingCake.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0466B0052171F6E1005ACD0B /* mashi_makingCake.mp4 */; };
 		436421522148F06A00DAC2BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436421512148F06A00DAC2BA /* AppDelegate.swift */; };
 		436421542148F06A00DAC2BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436421532148F06A00DAC2BA /* ViewController.swift */; };
 		436421572148F06A00DAC2BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 436421552148F06A00DAC2BA /* Main.storyboard */; };
@@ -15,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0466B0012171F6E1005ACD0B /* mashi_findingHouse.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = mashi_findingHouse.mp4; sourceTree = "<group>"; };
+		0466B0022171F6E1005ACD0B /* mashi_fishing.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = mashi_fishing.mp4; sourceTree = "<group>"; };
+		0466B0032171F6E1005ACD0B /* mashi_eatingEgg.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = mashi_eatingEgg.mp4; sourceTree = "<group>"; };
+		0466B0042171F6E1005ACD0B /* mashi-watchingMoon.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mashi-watchingMoon.mp4"; sourceTree = "<group>"; };
+		0466B0052171F6E1005ACD0B /* mashi_makingCake.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = mashi_makingCake.mp4; sourceTree = "<group>"; };
 		4364214E2148F06A00DAC2BA /* myfirstapp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myfirstapp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		436421512148F06A00DAC2BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		436421532148F06A00DAC2BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +48,11 @@
 		436421452148F06A00DAC2BA = {
 			isa = PBXGroup;
 			children = (
+				0466B0032171F6E1005ACD0B /* mashi_eatingEgg.mp4 */,
+				0466B0012171F6E1005ACD0B /* mashi_findingHouse.mp4 */,
+				0466B0022171F6E1005ACD0B /* mashi_fishing.mp4 */,
+				0466B0052171F6E1005ACD0B /* mashi_makingCake.mp4 */,
+				0466B0042171F6E1005ACD0B /* mashi-watchingMoon.mp4 */,
 				436421502148F06A00DAC2BA /* myfirstapp2 */,
 				4364214F2148F06A00DAC2BA /* Products */,
 			);
@@ -96,6 +111,7 @@
 				TargetAttributes = {
 					4364214D2148F06A00DAC2BA = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -124,6 +140,11 @@
 			files = (
 				4364215C2148F06B00DAC2BA /* LaunchScreen.storyboard in Resources */,
 				436421592148F06B00DAC2BA /* Assets.xcassets in Resources */,
+				0466B0062171F6E1005ACD0B /* mashi_findingHouse.mp4 in Resources */,
+				0466B0072171F6E1005ACD0B /* mashi_fishing.mp4 in Resources */,
+				0466B0082171F6E1005ACD0B /* mashi_eatingEgg.mp4 in Resources */,
+				0466B0092171F6E1005ACD0B /* mashi-watchingMoon.mp4 in Resources */,
+				0466B00A2171F6E1005ACD0B /* mashi_makingCake.mp4 in Resources */,
 				436421572148F06A00DAC2BA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,7 +309,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cary.myfirstapp2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -305,7 +326,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cary.myfirstapp2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
